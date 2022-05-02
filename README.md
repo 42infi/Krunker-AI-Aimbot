@@ -16,6 +16,7 @@ Feel free to use my code for your projects. With a few tweaks here and there and
 
 + Execute .exe invisible with vbs script (change aiaimbot.exe to your exe name and put it in the same folder or insert a path). Like this if the Face It anti cheats captures a screenshot nothing suspicous is on screen.
 In case you are skilled enough you also can try hooking the screenshot function and solve the problem that way. 
+
 ``Set WshShell = CreateObject("WScript.Shell")
 WshShell.Run chr(34) & "aiaimbot.exe" & Chr(34), 0
 Set WshShell = Nothing``
