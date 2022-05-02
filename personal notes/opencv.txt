@@ -1,0 +1,15 @@
+CMake:
+
+dnn cuda
+with cuda
+extra
+enable fast math
+->configure
+cuda fast math
+cuda arch bin - gpu cuda version
+world
+config
+->configure
+
+
+

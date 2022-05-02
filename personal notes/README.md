@@ -1,0 +1,1 @@
+just some of my raw personal notes, maybe they will help you

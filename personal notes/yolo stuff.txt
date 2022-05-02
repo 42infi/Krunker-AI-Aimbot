@@ -1,0 +1,26 @@
+https://cvat.org/tasks
+
+yolov4-tiny.cfg
+yolov4-tiny.weights
+
+Training:
+darknet.exe detector train data/obj.data cfg/yolov4-tiny.cfg
+
+Image detection:
+darknet.exe detector test data/obj.data cfg/yolov4-tiny.cfg backup/yolov4-tiny_last.weights
+
+
+Config stuff:
+
+set network size width=416 height=416 or any value multiple of 32
+
+max_batches = 2000 * number of classes(labels)
+steps= 80%, 90% of max_batches
+
+
+for each [yolo] layer in the config:
+classes= number of classes(labels)
+
+
+filters above [yolo]
+filters = (classes + 5) * 3
