@@ -23,7 +23,9 @@ Set WshShell = Nothing``
 + Name the .exe like another program that also uses the GPU alot like a bitcoin miner for example
 + Change parts of my code to avoid detection through signature scans
 + Obfuscate the source code
-+ Use low settings because I assume, even if Face It denies it, that there are manual ban's from Face It in Krunker done by spectating 
++ Use low settings because I assume, even if Face It denies it, that there are manual ban's from Face It in Krunker done by spectating
++ Im not sure if Face It scans open serial ports but this could also lead to detection
++ Also I read about detection of USB device descriptors but havent looked into it myself
 
 ## Useful sources
 
