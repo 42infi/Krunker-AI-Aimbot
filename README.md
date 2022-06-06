@@ -25,7 +25,7 @@ Set WshShell = Nothing``
 + Obfuscate the source code
 + Use low settings because I assume, even if Face It denies it, that there are manual ban's from Face It in Krunker done by spectating
 + Im not sure if Face It scans open serial ports but this could also lead to detection
-+ Also I read about detection of USB device descriptors but havent looked into it myself
++ You should change the PID and VID of your arduino
 
 ## Useful sources
 
