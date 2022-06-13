@@ -16,8 +16,8 @@ int moveY{};
 
 float sensitivity = 0.75;
 float minLockPercent = 0.8;
-float enabled = true;
-float showImg = true;
+bool enabled = true;
+bool showImg = true;
 bool hidden = false;
 
 class DetectionObj {
