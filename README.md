@@ -30,7 +30,7 @@ Set WshShell = Nothing``
 ## Useful sources
 
 - https://www.unknowncheats.me/forum/valorant/469268-yolo-aim-augmentation-v2-0-a.html
-- [Website I used to label my images for training](https://cvat.org/)
+- [Website I used to label my images for training](https://app.cvat.ai)
 - [YOLOv4 darknet](https://github.com/AlexeyAB/darknet) 
 - [Train YOLOv4 with darknet video tutorial](https://www.youtube.com/watch?v=-NEB5P-SLi0) 
 - [Build OpenCV, darknet and detect object on image](https://www.youtube.com/watch?v=FE2GBeKuqpc)
